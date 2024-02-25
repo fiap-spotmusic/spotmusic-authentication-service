@@ -1,6 +1,6 @@
-# SpotMusic Authentication Service
+# SpotMusic Payment Service
 
-O `spotmusic-authentication-service` é um serviço vital da SpotMusic, responsável por gerenciar a autenticação e autorização dos usuários. Este serviço assegura a segurança dos dados dos usuários e a integridade da plataforma SpotMusic.
+`spotmusic-payment-service`: Um microserviço seguro e escalável dedicado ao processamento de transações financeiras, permitindo aos usuários da SpotMusic realizar pagamentos de assinaturas e compras dentro do aplicativo
 
 ## Pilha Tecnológica
 - **Linguagem de Programação:** Python com Flask
@@ -9,12 +9,12 @@ O `spotmusic-authentication-service` é um serviço vital da SpotMusic, respons�
 - **Monitoramento:** Zabbix
 
 ## Configuração e Instalação
-Para configurar e executar o `spotmusic-authentication-service` em seu ambiente de desenvolvimento, siga os passos abaixo:
+Para configurar e executar o `spotmusic-payment-service` em seu ambiente de desenvolvimento, siga os passos abaixo:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/fiap-spotmusic/spotmusic-authentication-service.git
-cd spotmusic-authentication-service
+git clone https://github.com/fiap-spotmusic/spotmusic-payment-service.git
+cd spotmusic-payment-service
 
 # Instale as dependências
 pip install -r requirements.txt
