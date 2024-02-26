@@ -3,10 +3,14 @@
 `spotmusic-payment-service`: Um microserviço seguro e escalável dedicado ao processamento de transações financeiras, permitindo aos usuários da SpotMusic realizar pagamentos de assinaturas e compras dentro do aplicativo
 
 ## Pilha Tecnológica
-- **Linguagem de Programação:** Python com Flask
+- **Linguagem de Programação:** NodeJS
 - **Banco de Dados:** PostgreSQL no Amazon RDS
 - **Autenticação:** OAuth 2.0 / JWT Tokens
 - **Monitoramento:** Zabbix
+
+## Arquitetura do Serviço
+
+![Diagrama da Arquitetura do Serviço de Pagamento](./c4-model-payment.drawio.png)
 
 ## Configuração e Instalação
 Para configurar e executar o `spotmusic-payment-service` em seu ambiente de desenvolvimento, siga os passos abaixo:
